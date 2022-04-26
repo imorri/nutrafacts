@@ -1,31 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Whats In My Fridge!
 
-Welcome USER_NAME,
+Have you ever come to your Fridge and found a mix of ingredients and you didn't know what you could make with them.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+Whats In My Fridge is a conceptual application that may help you decide by allowing you to input the ingredients and and it returning possible recipes that include the ingredients you entered.
 
-## Reminders
+## Program Concept
+The program links two sets of lists/dbs,
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+- 1: A list of possible ingredients you may have in your fridge, eg - eggs, cheese, lettuce, tomatoes, cucumber etc etc
 
-## Creating the Heroku app
+- 2: A list of recipes.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The basic concept is to match the available ingredient with possible recipes.
 
-1. `heroku/python`
-2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## How to use "What's In My Fridge!" 
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+ 
+- enter a list of available ingredients into the search table.
+- click submit search
 
-Connect your GitHub repository and deploy as normal.
+- you will then be given a list of possible recipes you can choose from.
 
-## Constraints
+Only individual foods can be searched for. There is a black list for the search criteria to prevent search terms that are not on the ingredients list..  such as numbers or other strings of characters etc.  
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
