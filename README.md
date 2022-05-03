@@ -16,8 +16,9 @@ The program links open food facts db and alloes earch terms to be passed to sear
 
 - A search Screen alound inpot of Brand, Produt or ingredients
 - click submit search
-Search
-- you will then be given a list of possible recipes you can choose from.
+- a list of nutrients and ingrediants will be returend.
+
 ![Search](media/search.png)
-![Search](media/search rewsults.png)
+
+![Search](media/search-results.png)
 
